@@ -1,0 +1,5 @@
+<%= form_for '', url: '/static_pages/home', method: :get do |f| %>
+  <%= f.label :user_id %>
+  <%= f.text_field :user_id %>
+  <%= f.submit "Find User" %>
+<% end %>

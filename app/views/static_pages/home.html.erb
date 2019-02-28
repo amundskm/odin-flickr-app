@@ -1,0 +1,4 @@
+<%= render '/layouts/form' %>
+<% unless @photos == nil %>
+  <%= render partial: 'photo', collection: @photos, as: :photo %>
+<% end %>
